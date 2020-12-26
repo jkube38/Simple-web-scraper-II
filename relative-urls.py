@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
-
+# just playing with bs4 before putting it into the webscraper
 urls = set()
 source = requests.get('http://www.imdb.com')
 print(source.status_code)
